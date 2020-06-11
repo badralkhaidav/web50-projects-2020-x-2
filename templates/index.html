@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block head%}
+  <script src="{{ url_for('static', filename='jsstorage.js') }}"></script>
+  
+{% endblock %}
+{% block title %}
+
+  Login
+{% endblock %}
+
+
+{% block body %}
+
+    <h2>Please choose your messenger room</h2>
+
+    <div >
+      <div >
+      Welcome:  <i id = "user_name" style="color:blue" href="#">{{ user.login_name }}</i>
+      </div>
+        <ul id="chat">
+
+            {{message1}}
+        </ul>
+        <hr>
+
+
+    </div>
+      <p >CS50 Project 2 badral.belmen@gmail.com</p>
+
+{% endblock %}

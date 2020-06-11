@@ -1,0 +1,19 @@
+{ "main":{
+          "userlist": ["W","Y","N"],
+          "chats": [
+                    {"chatter": "W",
+                      "chatmessage": "We are wealthy"},
+                      { "chatter": "Y",
+                        "chatmessage": "We are rich" }
+                      ]
+          },
+  "blue":{
+                    "userlist": ["W","Y","N"],
+                    "chats": [
+                              {"chatter": "W",
+                                "chatmessage": "We are wealthiest"},
+                                { "chatter": "Y",
+                                  "chatmessage": "We are richest" }
+                                ]
+                    }
+}

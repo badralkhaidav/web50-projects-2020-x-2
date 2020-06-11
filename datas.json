@@ -1,0 +1,95 @@
+{
+    "blue": [
+        {
+            "chatter": "W",
+            "message": "",
+            "timestamp": "Fri Jun 12 00:23:17 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "cool",
+            "timestamp": "Fri Jun 12 00:21:09 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "nice",
+            "timestamp": "Fri Jun 12 00:21:00 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "richest",
+            "timestamp": "Sat May  2 12:14:47 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "richier",
+            "timestamp": "123"
+        }
+    ],
+    "green": [
+        {
+            "chatter": "W",
+            "message": "be cool",
+            "timestamp": "Fri Jun 12 00:21:18 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "start already rich",
+            "timestamp": "Sat May  2 01:09:08 2020"
+        }
+    ],
+    "main": [
+        {
+            "chatter": "W",
+            "message": "yes rich",
+            "timestamp": "Sat May  2 01:08:58 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "rich rich",
+            "timestamp": "123"
+        }
+    ],
+    "gold": [
+        {
+            "chatter": "W",
+            "message": "very",
+            "timestamp": "Sat May  2 01:08:49 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "richer",
+            "timestamp": "Sat May  2 01:08:42 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "already rich",
+            "timestamp": "Sat May  2 00:19:35 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "boomeer",
+            "timestamp": "Sat May  2 00:13:25 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "rich99",
+            "timestamp": "Fri May  1 23:43:55 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "riche8",
+            "timestamp": "Fri May  1 23:41:10 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "riche",
+            "timestamp": "Fri May  1 23:41:01 2020"
+        },
+        {
+            "chatter": "W",
+            "message": "riche",
+            "timestamp": "Fri May  1 23:40:38 2020"
+        }
+    ]
+}

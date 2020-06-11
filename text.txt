@@ -1,0 +1,21 @@
+chatlists = [[]]
+chatnamelist=[]
+room_name = "main"
+chatnamelist.append("main")
+chatnamelist.append("green")
+chatnamelist.append("red")
+chatnamelist.append("blue")
+
+chatlists[0].append("wealth chat")
+chatlists[0].append("wealth chat")
+chatlists[1].append("wealth chat")
+chatlists[2].append("wealth chat")
+chatlists[3].append("wealth chat")
+chatlists[3].append("wealth chat")
+
+chat_room_id = 0
+i=0
+while i < 1 :
+	if chatnamelist[i] == room_name:
+    	  print(chatnamelist[i])
+	i+=1

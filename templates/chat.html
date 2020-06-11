@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block head%}
+  <script src="{{ url_for('static', filename='jschat.js') }}"></script>
+  <script src="{{ url_for('static', filename='jschatroomname.js') }}"></script>
+{% endblock %}
+{% block title %}
+  Chat room
+{% endblock %}
+
+{% block body %}
+
+    <h2>Chat room:   <i id="chat_name">{{chat_name}}</i></h2>
+
+    <div >
+      <div >
+        Welcome <i id = "user_name" style="color:blue" href="#"></i>
+      </div>
+        <ul id="chat">
+          {% for chatmessages in message1 %}
+          <li> {{chatmessages['chatter']}} : {{chatmessages['message']}} - {{chatmessages['timestamp']}}</li>
+          {% endfor %}
+        </ul>
+        <hr>
+        <input id="chatmessage" type="text" placeholder="Enter your message">
+        <button data-vote="Send">Send</button>
+        <button data-vote="Attachment">Attchment</button>
+
+    </div>
+      <p >CS50 Project 2 badral.belmen@gmail.com</p>
+
+{% endblock %}

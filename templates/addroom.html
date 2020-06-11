@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Chat window
+{% endblock %}
+
+{% block body %}
+    <h2>Add chat room name</h2>
+
+    <div >
+      <form action="{{ url_for('result') }}" method="post">
+        <input type="text" name="chat_room_name" placeholder="Enter Chat room name here">
+        <button>Add</button>
+    </form>
+    </div>
+
+{% endblock %}
